@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bluemapletech.myapplication.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+   <!-- <Button android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"/>
+
+    &lt;!&ndash; Post to Wall Button &ndash;&gt;
+    <Button android:id="@+id/wall_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post to Wall"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    &lt;!&ndash; My Profile Button &ndash;&gt;
+    <Button android:id="@+id/profile_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile Data"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+    &lt;!&ndash; My Friend Button &ndash;&gt;
+    <Button android:id="@+id/friend_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Of Friends"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>-->
+</RelativeLayout>
